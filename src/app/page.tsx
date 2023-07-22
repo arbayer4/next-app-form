@@ -79,7 +79,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Card sx={{ padding: "24px", minWidth: "450px" }}>
+      <Card className={styles.cardStyle}>
         <div style={{ fontWeight: 700, fontSize: "32px" }}>Create Account</div>
         <form className={styles.mainForm} onSubmit={handleSubmit(onSubmit)}>
           {step === 1 && (

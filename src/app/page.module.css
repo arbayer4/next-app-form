@@ -8,6 +8,15 @@
   font-family: "Poppins", sans-serif;
   padding-top: 50px;
 }
+.cardStyle {
+  width: 90vw;
+  max-width: 450px;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
 .mainForm {
   display: flex;
   flex-direction: column;
